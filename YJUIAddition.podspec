@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YJUIAddition'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YJUIAddition.'
+  s.summary          = 'Extension to UIKit'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Extension to UIKit...'
 
-  s.homepage         = 'https://github.com/54065244/YJUIAddition'
+  s.homepage         = 'https://github.com/pendulum445/YJUIAddition'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '54065244' => 'yunjieliao@qq.com' }
-  s.source           = { :git => 'https://github.com/54065244/YJUIAddition.git', :tag => s.version.to_s }
+  s.author           = { 'liaoyunjie' => 'yunjieliao@qq.com' }
+  s.source           = { :git => 'https://github.com/pendulum445/YJUIAddition.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'YJUIAddition/Classes/**/*'
+  s.source_files = 'YJUIAddition/**/*'
   
   # s.resource_bundles = {
   #   'YJUIAddition' => ['YJUIAddition/Assets/*.png']
