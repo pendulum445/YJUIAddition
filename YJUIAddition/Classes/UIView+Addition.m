@@ -94,6 +94,12 @@
     self.layer.cornerRadius = cornerRadius;
 }
 
+- (void)setSize:(CGSize)size {
+    CGRect frame = self.frame;
+    frame.size = size;
+    self.frame = frame;
+}
+
 #pragma mark - Getter
 
 - (CGFloat)width {
@@ -130,6 +136,10 @@
 
 - (CGFloat)cornerRadius {
     return self.layer.cornerRadius;
+}
+
+- (CGSize)size {
+    return self.frame.size;
 }
 
 @end

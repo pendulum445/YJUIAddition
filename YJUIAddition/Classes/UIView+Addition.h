@@ -27,6 +27,7 @@
 @property (nonatomic, assign) CGFloat centerX;
 @property (nonatomic, assign) CGFloat centerY;
 @property (nonatomic, assign) CGFloat cornerRadius;
+@property (nonatomic, assign) CGSize size;
 
 + (CGFloat)screenSafeTop;
 + (CGFloat)screenSafeBottom;
