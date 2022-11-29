@@ -1,12 +1,12 @@
 //
-//  YJIUIAddition.h
+//  YJUIAddition.h
 //  YJUIAddition
 //
 //  Created by liaoyunjie on 2022/11/22.
 //
 
-#ifndef YJIUIAddition_h
-#define YJIUIAddition_h
+#ifndef YJUIAddition_h
+#define YJUIAddition_h
 
 
 #import "UIView+Addition.h"
@@ -14,4 +14,4 @@
 #import "UIColor+Addition.h"
 
 
-#endif /* YJIUIAddition_h */
+#endif /* YJUIAddition_h */
