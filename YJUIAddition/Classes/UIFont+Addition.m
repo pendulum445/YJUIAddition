@@ -17,4 +17,8 @@
     return [UIFont fontWithName:@"PingFangSC-Medium" size:fontSize];
 }
 
++ (UIFont *)PingFangSCSemiboldSize:(CGFloat)fontSize {
+    return [UIFont fontWithName:@"PingFangSC-Semibold" size:fontSize];
+}
+
 @end

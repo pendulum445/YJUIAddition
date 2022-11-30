@@ -15,8 +15,8 @@
 
 + (nullable UIFont *)PingFangSCRegularSize:(CGFloat)fontSize;
 + (nullable UIFont *)PingFangSCMediumSize:(CGFloat)fontSize;
++ (nullable UIFont *)PingFangSCSemiboldSize:(CGFloat)fontSize;
 
 @end
-
 
 #endif /* UIFont_Addition_h */

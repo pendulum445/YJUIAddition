@@ -11,6 +11,7 @@
 
 #import <UIKit/UIKit.h>
 
+#define RGB_COLOR(R, G, B) [UIColor colorWithRed:((R) / 255.0f) green:((G) / 255.0f) blue:((B) / 255.0f) alpha:1]
 #define YJUIColorBlack [UIColor lightColor:UIColor.blackColor darkColor:UIColor.whiteColor]
 #define YJUIColorWhite [UIColor lightColor:UIColor.whiteColor darkColor:UIColor.blackColor]
 #define YJUIColorGray20 [YJUIColorBlack colorWithAlphaComponent:0.2]
